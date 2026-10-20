@@ -41,7 +41,3 @@ We evaluated the model on the natural factory defect rate (around 6.6%) without 
 * **False Positives:** 190 (good wafers flagged as bad by mistake)
 * **False Negatives:** 2 (bad wafers that slipped through)
 * **True Positives:** 19 (bad wafers successfully caught)
-
----ase.** 
-
-While the model catches 19 out of 21 defective wafers (90.5% recall), it also triggers 190 false alarms on normal wafers. This would stop the manufacturing line constantly and waste too much time re-checking good wafers.
